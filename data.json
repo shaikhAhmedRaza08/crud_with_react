@@ -1,0 +1,70 @@
+{
+  "employee": [
+    {
+      "id": 3,
+      "name": "zakir Hussain",
+      "role": "software developer",
+      "gender": "M"
+    },
+    {
+      "id": 4,
+      "name": "faiz Sayyed",
+      "role": "software developer",
+      "gender": "M"
+    },
+    {
+      "id": 5,
+      "name": "sagir",
+      "role": "software tester",
+      "gender": "M"
+    },
+    {
+      "id": 6,
+      "name": "nadim",
+      "role": "software engineer",
+      "gender": "M"
+    },
+    {
+      "id": 8,
+      "name": "Muskan",
+      "role": "software breaker",
+      "gender": "F"
+    },
+    {
+      "id": 10,
+      "name": "Rehan",
+      "role": "Software Breaker",
+      "gender": "M"
+    },
+    {
+      "id": 1,
+      "name": "Nabila",
+      "role": "SQL Developer",
+      "gender": "F"
+    },
+    {
+      "id": 11,
+      "name": "Owaiz",
+      "role": "Software Developer",
+      "gender": "M"
+    },
+    {
+      "id": 12,
+      "name": "Sajjad",
+      "role": "Software Tester",
+      "gender": "M"
+    },
+    {
+      "id": 15,
+      "name": "Nauman Ali",
+      "role": "Accountant",
+      "gender": "M"
+    },
+    {
+      "id": 16,
+      "name": "Kashif",
+      "role": "Backend Developer",
+      "gender": "M"
+    }
+  ]
+}

@@ -3,26 +3,16 @@ import '../App.css';
 
 const Form = ({ addForm, formDataById, setDataById, data, updateForm }) => {
 
-    const findId = () => {
-        for(let i = 0; i < data.length; i++){
-            if(data[i].id === formDataById.id){
-                return data[i].id;
-            }
-        }
-    }
-
     const submit = (event) => {
         event.preventDefault();
-        let getId = findId()
-        if(getId !== undefined){
-            updateForm(getId, formDataById);
-            // console.log(getId, formDataById);
+        let employee = data.find(employee => employee.id === formDataById.id)
+        if(employee !== undefined){
+            updateForm(employee.id, formDataById);
         } else {
             addForm(formDataById);
-            // console.log(getId, formDataById);
-
         }
     }
+
     return (
         <div>
             <div className="form-card">

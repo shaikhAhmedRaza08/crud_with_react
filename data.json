@@ -2,7 +2,7 @@
   "employee": [
     {
       "id": 3,
-      "name": "zakir Hussain",
+      "name": "zakir hussain",
       "role": "software developer",
       "gender": "M"
     },
@@ -20,13 +20,13 @@
     },
     {
       "id": 6,
-      "name": "nadim",
+      "name": "nadim shaikh",
       "role": "software engineer",
       "gender": "M"
     },
     {
       "id": 8,
-      "name": "Muskan",
+      "name": "Khan Muskan",
       "role": "software breaker",
       "gender": "F"
     },
@@ -38,19 +38,19 @@
     },
     {
       "id": 1,
-      "name": "Nabila",
+      "name": "Nabila Shaikh",
       "role": "SQL Developer",
       "gender": "F"
     },
     {
       "id": 11,
-      "name": "Owaiz",
+      "name": "Owaiz Idrisi",
       "role": "Software Developer",
       "gender": "M"
     },
     {
       "id": 12,
-      "name": "Sajjad",
+      "name": "Sajjad Shaikh",
       "role": "Software Tester",
       "gender": "M"
     },
@@ -62,9 +62,27 @@
     },
     {
       "id": 16,
-      "name": "Kashif",
+      "name": "Kashif Ali",
       "role": "Backend Developer",
       "gender": "M"
+    },
+    {
+      "id": 17,
+      "name": "Roman Khan",
+      "role": "Sales Executive",
+      "gender": "M"
+    },
+    {
+      "id": 18,
+      "name": "Sanihal Khatri",
+      "role": "Sales Man",
+      "gender": "M"
+    },
+    {
+      "id": 19,
+      "name": "Noor-al-Ain",
+      "role": "Sales Executive",
+      "gender": "F"
     }
   ]
 }

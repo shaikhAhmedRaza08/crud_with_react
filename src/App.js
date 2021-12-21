@@ -17,6 +17,7 @@ function App() {
 
   const getData = () => {
     axios.get(url).then((response) => {
+      console.log("response", response)
       setData(response.data.sort((a , b) => {
         return a.id - b.id;
       }))
@@ -39,9 +40,8 @@ function App() {
   }
 
   const Add = (formData) => {
-    axios.post(url, formData)
+    axios.post(url, formData);  
     getData();
-    window.location.reload();
   }
 
 
@@ -51,16 +51,14 @@ function App() {
 
 
   const Update = (id, formData) => {
-    axios.put(`${url}/${id}`, formData);
+    axios.put(`${url}/${id}`, formData);  
     getData();
-    window.location.reload();
   }
 
 
   const Delete = (id) => {
-    axios.delete(`${url}/${id}`);
+    axios.delete(`${url}/${id}`); 
     getData();
-    window.location.reload();
   }
 
   return (

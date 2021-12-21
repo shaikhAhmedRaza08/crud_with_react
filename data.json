@@ -83,6 +83,60 @@
       "name": "Noor-al-Ain",
       "role": "Sales Executive",
       "gender": "F"
+    },
+    {
+      "id": 20,
+      "name": "Zulfiqar Ali Shaikh",
+      "role": "Software Engineer",
+      "gender": "M"
+    },
+    {
+      "id": 21,
+      "name": "Adnan sami",
+      "role": "Sales Executive",
+      "gender": "M"
+    },
+    {
+      "id": 22,
+      "name": "Faisal",
+      "role": "Somthing",
+      "gender": "M"
+    },
+    {
+      "id": 23,
+      "name": "Raftar",
+      "role": "Sales Man",
+      "gender": "M"
+    },
+    {
+      "id": 24,
+      "name": "Zaid",
+      "role": "Sales Man",
+      "gender": "M"
+    },
+    {
+      "id": 25,
+      "name": "Ali ",
+      "role": "Sales Man",
+      "gender": "M"
+    },
+    {
+      "id": 26,
+      "name": "Mohammed Faizan",
+      "role": "Sales Man",
+      "gender": "M"
+    },
+    {
+      "id": 27,
+      "name": "Adnan Shaikh ",
+      "role": "UI",
+      "gender": "M"
+    },
+    {
+      "id": 28,
+      "name": "Naymatulla",
+      "role": "Manager",
+      "gender": "M"
     }
   ]
 }

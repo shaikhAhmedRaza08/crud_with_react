@@ -4,6 +4,8 @@ import './App.css';
 import Form from './Components/form';
 import List from './Components/list';
 import axios from 'axios';
+import 'antd/dist/antd.css';
+
 
 function App() {
   const url = 'http://localhost:3331/employee';
@@ -65,7 +67,7 @@ function App() {
 
     <div className="App">
       <h2 style={{ textAlign: "center" }}>CRUD operation</h2>
-      <Form data={data} addForm={Add} formDataById={DataById} setDataById={setDataById} updateForm={Update} />
+      {/* <Form data={data} addForm={Add} formDataById={DataById} setDataById={setDataById} updateForm={Update} /> */}
       <br />
       <List data={data} onDelete={Delete} getId={getDataById} />
     </div>
